@@ -1,0 +1,111 @@
+body{
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:black;
+    opacity: 0.3; /* Firefox */
+  }
+
+  ::placeholder:active { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:black;
+    opacity: 0.3; /* Firefox */
+    outline: none;
+  }
+
+h1{
+    text-align:center;
+    font-size:60px;
+    font-weight:700;
+}
+
+.intro{
+    text-align:center;
+    font-size:1.8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:500;
+    color:white;
+}
+
+img{
+    margin-left:320px;
+    margin-bottom:40px;
+}
+
+h2{
+    text-align:center;
+    font-size:40px;
+}
+
+table{
+    margin-left: auto;
+    margin-right:auto;
+    font-size:1.5rem;
+}
+
+ol{
+    margin-left:650px;
+    font-size:30px;
+}
+
+.form{
+    height:500px;
+    width:900px;
+    margin:auto;
+    background:transparent;
+    padding:30px;
+}
+
+.box{
+    margin-left:300px; 
+    margin-bottom:30px;
+    font-size:24px;
+}
+
+input{
+    background:transparent;
+    font-size: 20px;
+    border:none;
+    border-bottom:2px solid black;
+}
+
+button{
+    margin-left:100px;
+}
+
+.btn{
+    position: relative;
+    background:transparent;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 4px;
+    border:2px solid black;
+    margin-left:54px;
+    margin-bottom:50px;
+    
+  }
+  
+  .btn:hover{
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+
+  footer{
+    background:transparent;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    padding:20px;
+}
